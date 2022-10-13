@@ -1,0 +1,43 @@
+.main {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/background.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nameTitle {
+    font-size: 50px;
+}
+
+.profile {
+    object-fit: cover;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.fontContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.desc {
+    width: 35%;
+    font-size: 20px;
+    text-align: center;
+}
+
+svg {
+    color: white;
+    padding-right: 15px;
+}
+
+svg:hover {
+    color: #4fc18d;
+}
