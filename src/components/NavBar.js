@@ -1,13 +1,15 @@
 import './styles/NavBar.css';
+import { Outlet, Link } from "react-router-dom";
 
 function NavBar() {
     return (
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/skills">Skills</a>
-            <a href="/projects">Projects</a>
-        </nav>
+        <>
+            <nav>
+                <Link to="/">Home</Link>
+                <Link to="projects">Projects</Link>
+            </nav>
+            <Outlet />
+        </>   
     );
   }
   

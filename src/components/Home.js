@@ -15,7 +15,7 @@ function Home() {
             }}
         >
             <h1 className="profileTitle">Mathieu Girard</h1>
-            <div className='profile backgroundImg' 
+            <div className='profile' 
                 style={{
                     backgroundImage: `url(/assets/profilePic2.JPG`,
                     backgroundPosition: 'center',
