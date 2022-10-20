@@ -6,11 +6,23 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
     return (
-        <div className='main'>
-            <h1 className="nameTitle">Mathieu Girard</h1>
-            <img className='profile' 
-                src={require('../assets/profilePic2.JPG')}  
-                alt="profile pic"/>
+        <div className='main'
+            style={{
+                backgroundImage: `url(/assets/background.webp`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+            }}
+        >
+            <h1 className="profileTitle">Mathieu Girard</h1>
+            <div className='profile backgroundImg' 
+                style={{
+                    backgroundImage: `url(/assets/profilePic2.JPG`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                }}>
+            </div>
             <TypeAnimation
                 sequence={[
                     "Software Engineer",
