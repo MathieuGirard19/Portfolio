@@ -1,20 +1,23 @@
 nav {
-    height: 100px;
+    height: 10%;
     display: flex;
-    position: fixed;
     justify-content: center;
     align-items: center;
     background-color: #1d2430;
     width: 100%;
+    margin-bottom: 0%;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
     padding-right: 20px;
     font-size: 32px;
 }
 
 nav a:hover {
+    color: #4fc18d;
+}
+
+.isActive {
     color: #4fc18d;
 }

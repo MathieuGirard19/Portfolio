@@ -1,5 +1,5 @@
 import "./styles/Projects.css"
-import projectData from "./data.js"
+import { projectData } from "./data.js"
 import React from "react"
 
 function Projects() {

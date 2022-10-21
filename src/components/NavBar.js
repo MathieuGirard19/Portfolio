@@ -1,12 +1,13 @@
 import './styles/NavBar.css';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
         <>
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="projects">Projects</Link>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="projects">Projects</NavLink>
+                <NavLink to="work">Work</NavLink>
             </nav>
             <Outlet />
         </>   

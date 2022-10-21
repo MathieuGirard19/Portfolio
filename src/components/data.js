@@ -1,4 +1,4 @@
-const projectData = [
+export const projectData = [
     {
         name: "Capstone",
         img: "REPR.png",
@@ -31,4 +31,47 @@ const projectData = [
     }
 ]
 
-export default projectData;
+export const workData = [
+    {
+        position: "Data Analyst Developer",
+        company: "RentSync",
+        img: "rentsync.png",
+        time: "Oct 2022"
+    },
+    {
+        position: "Sales and Trading Analyst",
+        company: "Scotiabank, Capital Markets",
+        img: "scotia.png",
+        time: "May 2022"
+    },
+    {
+        position: "Software Engineer",
+        company: "Scotiabank, Global Wholesale Risk Technology",
+        img: "scotia.png",
+        time: "May 2021"
+    },
+    {
+        position: "Software Engineer",
+        company: "Scotiabank, Technology Innovation",
+        img: "scotia.png",
+        time: "Jan 2021"
+    },
+    {
+        position: "Data Engineer",
+        company: "Scotiabank, Executive Insights and Marketing Analytics",
+        img: "scotia.png",
+        time: "Sept 2020"
+    },
+    {
+        position: "DevOps Engineer",
+        company: "Scotiabank, Global Banking Payments",
+        img: "scotia.png",
+        time: "May 2020"
+    },
+    {
+        position: "Data Engineer",
+        company: "Scotiabank, Commerical Banking",
+        img: "scotia.png",
+        time: "May 2019 - Sept 2019"
+    },
+]
